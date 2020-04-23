@@ -6,14 +6,24 @@
 }
 
 a {
-	color: #72db7b;
+	color: #cf99f1;
+}
+
+p{
+	font-size: 1.2em;
+	font-family: 'Comic Neue', cursive;
+	font-weight: 300;
+%	text-align: justify;
 }
 
 a:hover {
-	color: #7df087;
+	color: #b386cf;
 	text-decoration: none;
 }
 
+image:hover{
+	color: #ffffff38;
+}
 .navbar {
 	background: none;
 	font-size: 1.6em;
