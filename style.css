@@ -1,0 +1,141 @@
+﻿html, body {
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+	color: #72db7b;
+}
+
+a:hover {
+	color: #7df087;
+	text-decoration: none;
+}
+
+.navbar {
+	background: none;
+	font-size: 1.6em;
+	border: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: 0 0;
+	display: flex; /* displays flex-items (children) inline */
+	justify-content: center; /* centers them horizontally */
+	font-weight: 100;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	left: 0;
+	right: 0;
+	color: #b386cf;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default, .navbar-nav li a.active {
+	color: #cf99f1;
+}
+
+#LandingLogo {
+	height: 50%;
+	width: 50%;
+}
+
+#home {
+	background-color: #564b5d;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: #e8e8e8;
+}
+
+#Landing{
+	margin-top: 250px;
+}
+
+.landing-text {
+	font-size: 1.2em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	display: table-cell;
+	text-align: justify;
+}
+
+.landing-text-h1 {
+	font-size: 200%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+
+#games {
+	background-color: #62526b;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: #e8e8e8;
+}
+#news {
+	background-color: #755f81;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: #e8e8e8;
+}
+#contact {
+	background-color: #876b96;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color: #e8e8e8;
+}
