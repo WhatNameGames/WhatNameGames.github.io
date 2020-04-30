@@ -10,10 +10,10 @@ a {
 }
 
 p{
-	font-size: 1.2em;
+	font-size: 1.6em;
 	font-family: 'Comic Neue', cursive;
 	font-weight: 300;
-%	text-align: justify;
+	text-align: justify;
 }
 
 a:hover {
@@ -54,8 +54,8 @@ image:hover{
 }
 
 #LandingLogo {
-	height: 50%;
-	width: 50%;
+	height: 70%;
+	width: 70%;
 }
 
 #home {
@@ -73,7 +73,7 @@ image:hover{
 }
 
 .landing-text {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	font-family: 'Comic Neue', cursive;
 	font-weight: 300;
 	display: table-cell;
@@ -81,7 +81,7 @@ image:hover{
 }
 
 .landing-text-h1 {
-	font-size: 200%;
+	font-size: 250%;
 	font-weight: 700;
 }
 
