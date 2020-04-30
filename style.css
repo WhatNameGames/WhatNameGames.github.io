@@ -6,7 +6,7 @@
 	--thumbBG: #9985a7;
 	scrollbar-width: thin;
   	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-	font-family: 'Comic Neue', cursive;
+	font-family: 'VT323', monospace;
 }
 
 body::-webkit-scrollbar {
@@ -29,8 +29,8 @@ a {
 }
 
 p{
-	font-size: 1.6em;
-	font-family: 'Comic Neue', cursive;
+	font-size: 1.9em;
+	font-family: 'VT323', monospace;
 	font-weight: 300;
 	text-align: center;
 }
@@ -45,7 +45,7 @@ image:hover{
 }
 .navbar {
 	background: none;
-	font-size: 1.6em;
+	font-size: 2.6em;
 	border: none;
 	margin: 0;
 	padding: 0;
@@ -79,11 +79,12 @@ image:hover{
 
 #home {
 	background-color: #564b5d;
+	background-image: url("Images/BG1.png");
+	background-repeat: round;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
 	color: #e8e8e8;
 }
 
@@ -92,8 +93,8 @@ image:hover{
 }
 
 .landing-text {
-	font-size: 1.4em;
-	font-family: 'Comic Neue', cursive;
+	font-size: 1.9em;
+	font-family: 'VT323', monospace;
 	font-weight: 300;
 	display: table-cell;
 	text-align: justify;
@@ -114,7 +115,7 @@ image:hover{
 
 .fa {
 	padding: 15px;
-	font-size: 25px;
+	font-size: 1.2em;
 	color: white;
 }
 
@@ -143,28 +144,31 @@ image:hover{
 
 #games {
 	background-color: #62526b;
+	background-image: url("Images/BG2.png");
+	background-repeat: round;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
 	color: #e8e8e8;
 }
 #news {
 	background-color: #755f81;
+	background-image: url("Images/BG3.png");
+	background-repeat: round;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
 	color: #e8e8e8;
 }
 #contact {
 	background-color: #876b96;
+	background-image: url("Images/BG4.png");
+	background-repeat: round;
 	display: table;
 	height: 100%;
 	position: relative;
 	width: 100%;
-	background-size: cover;
 	color: #e8e8e8;
 }
