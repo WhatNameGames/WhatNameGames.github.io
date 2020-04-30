@@ -78,7 +78,6 @@ image:hover{
 }
 
 #home {
-	background-color: #564b5d;
 	background-image: url("images/BG1.png");
 	background-repeat: round;
 	display: table;
@@ -143,7 +142,6 @@ image:hover{
 
 
 #games {
-	background-color: #62526b;
 	background-image: url("images/BG2.png");
 	background-repeat: round;
 	display: table;
@@ -153,7 +151,6 @@ image:hover{
 	color: #e8e8e8;
 }
 #news {
-	background-color: #755f81;
 	background-image: url("images/BG3.png");
 	background-repeat: round;
 	display: table;
@@ -163,7 +160,6 @@ image:hover{
 	color: #e8e8e8;
 }
 #contact {
-	background-color: #876b96;
 	background-image: url("images/BG4.png");
 	background-repeat: round;
 	display: table;
