@@ -35,7 +35,7 @@
     </div>
   </nav>
 
-  <div id="home" class="padding">
+  <div name="section" id="home" class="padding">
     <div class="container">
       <div class="row" id="Landing">
         <div class="col-sm-6">
@@ -51,7 +51,7 @@
     </div>
   </div>
 
-  <div id="games" class="padding">
+  <div name="section" id="games" class="padding">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <div id="news" class="padding">
+  <div name="section" id="news" class="padding">
       <div class="container text-center">
         <div class="row">
           <div class="col-sm-12">
@@ -85,7 +85,7 @@
       </div>
   </div>
 
-  <div id="contact" class="padding">
+  <div name="section" id="contact" class="padding">
       <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -95,5 +95,66 @@
         </div>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script> 
+
+    <script>
+ (function() {
+  var delay = false;
+
+  $(document).on('mousewheel DOMMouseScroll', function(event) {
+    event.preventDefault();
+    if(delay) return;
+
+    delay = true;
+    setTimeout(function(){delay = false},200)
+
+    var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
+
+    var a= document.getElementsByName('section');
+    if(wd < 0) {
+      for(var i = 0 ; i < a.length ; i++) {
+        var t = a[i].getClientRects()[0].top;
+        if(t >= 30) break;
+      }
+    }
+    else {
+      for(var i = a.length-1 ; i >= 0 ; i--) {
+        var t = a[i].getClientRects()[0].top;
+        if(t < -20) break;
+      }
+    }
+    $('html,body').animate({
+      scrollTop: a[i].offsetTop
+    });
+  });
+})();
+  </script> 
 </body>
 </html>
